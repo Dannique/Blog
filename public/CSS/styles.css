@@ -1,0 +1,137 @@
+body {
+  background-color: #2e3338;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+}
+
+h1 {
+  color: #51868A;
+  margin-top: 50px;
+
+}
+
+p {
+  color: #d4cec1;
+}
+
+a {
+  color: #51868A;
+}
+
+a:hover {
+  color: #A9BCBD;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  background: rgba(66, 66, 66, 0.4962359943977591);
+  padding-top: 12px;
+  padding-bottom: 10px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a {
+  color: #BDBDBD !important;
+}
+
+.navbar-nav li a:hover {
+  color: #51868A !important;
+}
+
+#brand {
+  color: #51868A;
+  font-size: 19px;
+}
+
+#brand:hover {
+  color: #DADADA;
+  text-decoration: none;
+}
+
+.home {
+  margin-top: 40px;
+}
+
+.btn {
+  position: relative;
+  z-index: 3;
+  background: transparent;
+  color: #51868A;
+  font-size: 14px;
+  border-color: #51868A;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 22px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  transition: all 0.2s linear;
+  margin-top: 30px;
+}
+
+.btn:hover {
+  background: #51868A;
+  color: #DADADA;
+}
+
+label {
+  color: #51868A;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  width: 800px;
+  background-color: #DBDBDB;
+}
+.form-control::placeholder{
+  color: #51868A;
+}
+
+.composeTitle{
+  margin-bottom: 40px;
+}
+
+.footer {
+  /* position: absolute; */
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background: linear-gradient(90deg, rgba(48, 86, 88, 1) 13%, rgba(81, 134, 138, 1) 52%, rgba(55, 86, 88, 1) 87%);
+  position: fixed;
+  opacity: 0.6;
+}
+
+.footer p {
+  padding-top: 9px;
+  margin: auto;
+  font-size: 12px;
+  color: #DADADA;
+}
+
+.footer-padding {
+  padding-bottom: 100px;
+}
+
+.titleInput {
+  margin: 20px auto;
+}
+
+.postInput {
+  margin: 20px auto;
+}
+
+.postText {
+  width: 600px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
